@@ -5,8 +5,8 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 
 @Composable
-fun Fragment1Screen() {
+fun RestaurantsScreen() {
     Column {
-        Text("Fragment1")
+        Text("RestaurantsFragment")
     }
 }

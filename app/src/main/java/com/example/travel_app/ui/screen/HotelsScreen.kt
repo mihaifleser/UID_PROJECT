@@ -6,14 +6,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun HomeScreen() {
+fun HotelsScreen() {
     Column {
-        Text("Home Screen")
+        Text("Hotels Screen")
     }
 }
 
 @Preview(showBackground = true)
 @Composable
 fun HomeScreenPreview() {    // Must be called with no arguments in order to show a preview on the right.
-    HomeScreen()
+    HotelsScreen()
 }
