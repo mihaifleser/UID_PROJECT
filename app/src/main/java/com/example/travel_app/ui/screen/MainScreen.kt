@@ -28,6 +28,7 @@ fun MainScreen(drawerNavPaths: Map<String, () -> Unit>, topBarNavPaths: Map<Stri
         drawerContent = {
             AppDrawer(drawerNavPaths, openCloseDrawer, appTitle)
         },
+        drawerGesturesEnabled = false,
         topBar = { TopBar(topBarNavPaths, openCloseDrawer, appTitle) }
     ) {
         AndroidViewBinding(ContentMainBinding::inflate)
